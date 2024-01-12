@@ -62,6 +62,16 @@ var baseTree = {
                         { label: '2022', layer: markersConf22 },
                         { label: '2023', layer: markersConf23 },
                     ]
+                }, {
+                    label: '<b>Confirmados - Mapas de Calor</b>',
+                    collapsed: true,
+                    children: [
+                        { label: '2019', layer: conf19_calor1 },
+                        { label: '2020', layer: conf20_calor1 },
+                        { label: '2021', layer: conf21_calor1 },
+                        { label: '2022', layer: conf22_calor1 },
+                        { label: '2023', layer: conf23_calor1 },
+                    ]
                 }
             ]
         },

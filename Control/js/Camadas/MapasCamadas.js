@@ -12,7 +12,7 @@ var baseTree = {
     children: [
         {
           label: '<b>Macro Áreas</b>',
-          collapsed: false,
+          collapsed: true,
           children: [
               { label: 'Macro Área 1', layer: macroArea1 },
               { label: 'Macro Área 2', layer: macroArea2 },
@@ -33,20 +33,36 @@ var baseTree = {
         ]
         }, {
           label: '<b>Estabelecimentos de Saúde</b>',
-          collapsed: false,
+          collapsed: true,
           children: [
               { label: 'Estabelecimentos de Saúde', layer: markersUs },
         ]
-        }, {
-            label: '<b>Casos Notificados - Dengue</b>',
+        },{
+            label: '<b>Dengue</b>',
             collapsed: false,
             children: [
-                { label: '2019', layer: markersNot19 },
-                { label: '2020', layer: markersNot20 },
-                { label: '2021', layer: markersNot21 },
-                { label: '2022', layer: markersNot22 },
-                { label: '2023', layer: markersNot23 },
-                { label: '2024', layer: markersNot24 },
+                {
+                    label: '<b>Notificados</b>',
+                    collapsed: true,
+                    children: [
+                        { label: '2019', layer: markersNot19 },
+                        { label: '2020', layer: markersNot20 },
+                        { label: '2021', layer: markersNot21 },
+                        { label: '2022', layer: markersNot22 },
+                        { label: '2023', layer: markersNot23 },
+                        { label: '2024', layer: markersNot24 },
+                    ]
+                }, {
+                    label: '<b>Confirmados</b>',
+                    collapsed: true,
+                    children: [
+                        { label: '2019', layer: markersConf19 },
+                        { label: '2020', layer: markersConf20 },
+                        { label: '2021', layer: markersConf21 },
+                        { label: '2022', layer: markersConf22 },
+                        { label: '2023', layer: markersConf23 },
+                    ]
+                }
             ]
         },
     ]

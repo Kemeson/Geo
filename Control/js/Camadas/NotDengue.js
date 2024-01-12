@@ -1,19 +1,77 @@
 // Sedes Municipais
 
-var markersNot = L.markerClusterGroup();
-console.log(not1);
+var markersNot19 = L.markerClusterGroup();
 
-var not = L.geoJSON(not1, {
-    /*pointToLayer: function (feature, latlng) {
-        switch (feature.properties.TP_GESTAO) {
-            case 'M': return L.marker(latlng, {icon: redIcon});
-            case 'E': return L.marker(latlng, {icon: VerdeIcon});
-            case 'D': return L.marker(latlng, {icon: CinzaIcon});
-        }
-    },*/
+
+var not2019 = L.geoJSON(not19, {
     onEachFeature: function (geom, layer) {
       layer.bindPopup('<h6><b>Casos Notificados - Dengue</b></h6><p><b>Coordenadas:</b> '+geom.properties.coordenadas+'<br><b>Endereço:</b> '+geom.properties.endereco+'<br><b>Ano:</b> '+geom.properties.nu_ano+'</p>');
     }
   });
 
-  markersNot.addLayer(not);
+  markersNot19.addLayer(not2019);
+
+
+var markersNot20 = L.markerClusterGroup();
+
+
+var not2020 = L.geoJSON(not20, {
+    onEachFeature: function (geom, layer) {
+      layer.bindPopup('<h6><b>Casos Notificados - Dengue</b></h6><p><b>Coordenadas:</b> '+geom.properties.coordenadas+'<br><b>Endereço:</b> '+geom.properties.endereco+'<br><b>Ano:</b> '+geom.properties.nu_ano+'</p>');
+    }
+  });
+
+  markersNot20.addLayer(not2020);
+
+
+var markersNot21 = L.markerClusterGroup();
+
+
+var not2021 = L.geoJSON(not21, {
+    onEachFeature: function (geom, layer) {
+      layer.bindPopup('<h6><b>Casos Notificados - Dengue</b></h6><p><b>Coordenadas:</b> '+geom.properties.coordenadas+'<br><b>Endereço:</b> '+geom.properties.endereco+'<br><b>Ano:</b> '+geom.properties.nu_ano+'</p>');
+    }
+  });
+
+  markersNot21.addLayer(not2021);
+
+
+  var markersNot22 = L.markerClusterGroup();
+
+
+var not2022 = L.geoJSON(not22, {
+    onEachFeature: function (geom, layer) {
+      layer.bindPopup('<h6><b>Casos Notificados - Dengue</b></h6><p><b>Coordenadas:</b> '+geom.properties.coordenadas+'<br><b>Endereço:</b> '+geom.properties.endereco+'<br><b>Ano:</b> '+geom.properties.nu_ano+'</p>');
+    }
+  });
+
+  markersNot22.addLayer(not2022);
+
+
+  var markersNot23 = L.markerClusterGroup();
+
+
+  var not2023 = L.geoJSON(not23, {
+      onEachFeature: function (geom, layer) {
+        layer.bindPopup('<h6><b>Casos Notificados - Dengue</b></h6><p><b>Coordenadas:</b> '+geom.properties.coordenadas+'<br><b>Endereço:</b> '+geom.properties.endereco+'<br><b>Ano:</b> '+geom.properties.nu_ano+'</p>');
+      }
+    });
+  
+    markersNot23.addLayer(not2023);
+
+
+    var markersNot24 = L.markerClusterGroup();
+
+
+    var not2024 = L.geoJSON(not24, {
+        onEachFeature: function (geom, layer) {
+          layer.bindPopup('<h6><b>Casos Notificados - Dengue</b></h6><p><b>Coordenadas:</b> '+geom.properties.coordenadas+'<br><b>Endereço:</b> '+geom.properties.endereco+'<br><b>Ano:</b> '+geom.properties.nu_ano+'</p>');
+        }
+      });
+    
+      markersNot24.addLayer(not2024);
+
+
+
+
+

@@ -1,0 +1,18 @@
+var not24 = {
+"type": "FeatureCollection",
+"name": "not_2024",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4674" } },
+"features": [
+{ "type": "Feature", "properties": { "nu_ano": 2024, "endereco": "RUA JC 02, 120, OLIMPICO , Boa Vista, RR", "coordenadas": "Rua Josefa Leite de Souza, Olímpico, Boa Vista, Região Geográfica Imediata de Boa Vista, Região Geográfica Intermediária de Boa Vista, Roraima, Região Norte, 69313-132, Brasil", "latitude": 2.806032, "longitude": -60.7340486 }, "geometry": { "type": "Point", "coordinates": [ -60.7340486, 2.806032 ] } },
+{ "type": "Feature", "properties": { "nu_ano": 2024, "endereco": "RUA DR ZAMENHOF, 674, CARANA , Boa Vista, RR", "coordenadas": "Rua Doutor Zamenhof, Caranã, Boa Vista, Região Geográfica Imediata de Boa Vista, Região Geográfica Intermediária de Boa Vista, Roraima, Região Norte, 69313-620, Brasil", "latitude": 2.8441237, "longitude": -60.724166 }, "geometry": { "type": "Point", "coordinates": [ -60.724166, 2.8441237 ] } },
+{ "type": "Feature", "properties": { "nu_ano": 2024, "endereco": "AV VALMIR QUEIROZ, 376, DR AIRTON ROCH, Boa Vista, RR", "coordenadas": null, "latitude": null, "longitude": null }, "geometry": null },
+{ "type": "Feature", "properties": { "nu_ano": 2024, "endereco": "RUA ENG CARLOS GERALDO, 215, CENTENARIO , Boa Vista, RR", "coordenadas": "Rua Engenheiro Carlos Geraldo, Loteamento Ajuri, Centenário, Boa Vista, Região Geográfica Imediata de Boa Vista, Região Geográfica Intermediária de Boa Vista, Roraima, Região Norte, 69312-521, Brasil", "latitude": 2.795133, "longitude": -60.7097722 }, "geometry": { "type": "Point", "coordinates": [ -60.7097722, 2.795133 ] } },
+{ "type": "Feature", "properties": { "nu_ano": 2024, "endereco": "RUA CESAR NOGUEIRA JUNIOR, 33, SANTA LUZIA , Boa Vista, RR", "coordenadas": null, "latitude": null, "longitude": null }, "geometry": null },
+{ "type": "Feature", "properties": { "nu_ano": 2024, "endereco": "AV JARDIM, 403, CIDADE SATELITE , Boa Vista, RR", "coordenadas": "Avenida Jardim, Cidade Satélite, Boa Vista, Região Geográfica Imediata de Boa Vista, Região Geográfica Intermediária de Boa Vista, Roraima, Região Norte, 69317-529, Brasil", "latitude": 2.8424989, "longitude": -60.7562524 }, "geometry": { "type": "Point", "coordinates": [ -60.7562524, 2.8424989 ] } },
+{ "type": "Feature", "properties": { "nu_ano": 2024, "endereco": "RUA RAIMUNDO MENDES DE SPUSA JUNIOR, 60, JARDIM FLORESTA , Boa Vista, RR", "coordenadas": null, "latitude": null, "longitude": null }, "geometry": null },
+{ "type": "Feature", "properties": { "nu_ano": 2024, "endereco": "RUA ACARI, 964, SANTA TEREZA , Boa Vista, RR", "coordenadas": null, "latitude": null, "longitude": null }, "geometry": null },
+{ "type": "Feature", "properties": { "nu_ano": 2024, "endereco": "NAO INFORMADO, 1749, LIBERDADE , Boa Vista, RR", "coordenadas": null, "latitude": null, "longitude": null }, "geometry": null },
+{ "type": "Feature", "properties": { "nu_ano": 2024, "endereco": "RUA ANTONIA FERREIRA DA SILVA, 2183, PINTOLANDIA , Boa Vista, RR", "coordenadas": "Rua Antônia Ferreira da Silva, Pintolândia, Boa Vista, Região Geográfica Imediata de Boa Vista, Região Geográfica Intermediária de Boa Vista, Roraima, Região Norte, 69317-181, Brasil", "latitude": 2.8021327, "longitude": -60.7485567 }, "geometry": { "type": "Point", "coordinates": [ -60.7485567, 2.8021327 ] } },
+{ "type": "Feature", "properties": { "nu_ano": 2024, "endereco": "RUAJUVENCIO DE ALBUQUERQUE, 127, ASA BRANCA , Boa Vista, RR", "coordenadas": null, "latitude": null, "longitude": null }, "geometry": null }
+]
+}

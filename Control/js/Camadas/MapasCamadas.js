@@ -41,7 +41,12 @@ var baseTree = {
             label: '<b>Casos Notificados - Dengue</b>',
             collapsed: false,
             children: [
-                { label: 'Casos Notificados - Dengue', layer: markersNot },
+                { label: '2019', layer: markersNot19 },
+                { label: '2020', layer: markersNot20 },
+                { label: '2021', layer: markersNot21 },
+                { label: '2022', layer: markersNot22 },
+                { label: '2023', layer: markersNot23 },
+                { label: '2024', layer: markersNot24 },
             ]
         },
     ]

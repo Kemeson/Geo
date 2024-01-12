@@ -1,4 +1,4 @@
-// Sedes Municipais
+// Unidades de Saúde
 
 var markersUs = L.markerClusterGroup();
 console.log(us1);

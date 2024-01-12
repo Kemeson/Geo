@@ -14,7 +14,14 @@ var baseTree = {
           label: '<b>Macro Áreas</b>',
           collapsed: false,
           children: [
-              { label: 'Macro Áreas', layer: macroAreas1 },    
+              { label: 'Macro Área 1', layer: macroArea1 },
+              { label: 'Macro Área 2', layer: macroArea2 },
+              { label: 'Macro Área 3', layer: macroArea3 },
+              { label: 'Macro Área 4', layer: macroArea4 },        
+              { label: 'Macro Área 5', layer: macroArea5 },
+              { label: 'Macro Área 6', layer: macroArea6 },
+              { label: 'Macro Área 7', layer: macroArea7 },
+              { label: 'Macro Área 8', layer: macroArea8 },
           ]
         }, {
           label: '<b>Base Cartográfica</b>',
@@ -30,6 +37,12 @@ var baseTree = {
           children: [
               { label: 'Estabelecimentos de Saúde', layer: markersUs },
         ]
+        }, {
+            label: '<b>Casos Notificados - Dengue</b>',
+            collapsed: false,
+            children: [
+                { label: 'Casos Notificados - Dengue', layer: markersNot },
+            ]
         },
     ]
   }

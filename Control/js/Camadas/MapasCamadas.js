@@ -37,6 +37,7 @@ var baseTree = {
           children: [
               { label: 'Estabelecimentos de Saúde - CNES', layer: markersUs },
               { label: 'Unidade Básica de Saúde - UBS', layer: pontMacros1 },
+              { label: 'Abrigos', layer: abrigo1 },
         ]
         },{
             label: '<b>Dengue</b>',

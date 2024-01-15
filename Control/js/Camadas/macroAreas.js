@@ -31,56 +31,56 @@
   console.log(macro1);
 
   var macroArea1 = L.geoJSON(macro1, {
-    color: "#f4c748", weight: 2, fillOpacity: 0.5, Opacity: 1,
+    color: "#f4c748", weight: 3, fillOpacity: 0.2, Opacity: 1,
     onEachFeature: function (geom, layer) {
       layer.bindPopup('<h6><b>Macro Área 1</b></h6><p><b>Nome:</b> '+geom.properties.Name+'<br><b>Descrição: </b> '+geom.properties.description+'</p>');
     }
   });
 
   var macroArea2 = L.geoJSON(macro2, {
-    color: "#e27a71", weight: 2, fillOpacity: 0.5, Opacity: 1,
+    color: "#e27a71", weight: 3, fillOpacity: 0.2, Opacity: 1,
     onEachFeature: function (geom, layer) {
       layer.bindPopup('<h6><b>Macro Área 2</b></h6><p><b>Nome:</b> '+geom.properties.Name+'<br><b>Descrição: </b> '+geom.properties.description+'</p>');
     }
   });
 
   var macroArea3 = L.geoJSON(macro3, {
-    color: "#f4ef89", weight: 2, fillOpacity: 0.5, Opacity: 1,
+    color: "#f4ef89", weight: 3, fillOpacity: 0.2, Opacity: 1,
     onEachFeature: function (geom, layer) {
       layer.bindPopup('<h6><b>Macro Área 3</b></h6><p><b>Nome:</b> '+geom.properties.Name+'<br><b>Descrição: </b> '+geom.properties.description+'</p>');
     }
   });
 
   var macroArea4 = L.geoJSON(macro4, {
-    color: "Purple", weight: 2, fillOpacity: 0.5, Opacity: 1,
+    color: "Purple", weight: 3, fillOpacity: 0.2, Opacity: 1,
     onEachFeature: function (geom, layer) {
       layer.bindPopup('<h6><b>Macro Área 4</b></h6><p><b>Nome:</b> '+geom.properties.Name+'<br><b>Descrição: </b> '+geom.properties.description+'</p>');
     }
   });
 
   var macroArea5 = L.geoJSON(macro5, {
-    color: "#6cc19a", weight: 2, fillOpacity: 0.5, Opacity: 1,
+    color: "#6cc19a", weight: 3, fillOpacity: 0.2, Opacity: 1,
     onEachFeature: function (geom, layer) {
       layer.bindPopup('<h6><b>Macro Área 5</b></h6><p><b>Nome:</b> '+geom.properties.Name+'<br><b>Descrição: </b> '+geom.properties.description+'</p>');
     }
   });
 
   var macroArea6 = L.geoJSON(macro6, {
-    color: "#7aa9ef", weight: 2, fillOpacity: 0.5, Opacity: 1,
+    color: "#7aa9ef", weight: 3, fillOpacity: 0.2, Opacity: 1,
     onEachFeature: function (geom, layer) {
       layer.bindPopup('<h6><b>Macro Área 6</b></h6><p><b>Nome:</b> '+geom.properties.Name+'<br><b>Descrição: </b> '+geom.properties.description+'</p>');
     }
   });
 
   var macroArea7 = L.geoJSON(macro7, {
-    color: "#f1b2ad", weight: 2, fillOpacity: 0.5, Opacity: 1,
+    color: "#f1b2ad", weight: 3, fillOpacity: 0.2, Opacity: 1,
     onEachFeature: function (geom, layer) {
       layer.bindPopup('<h6><b>Macro Área 7</b></h6><p><b>Nome:</b> '+geom.properties.Name+'<br><b>Descrição: </b> '+geom.properties.description+'</p>');
     }
   });
 
   var macroArea8 = L.geoJSON(macro8, {
-    color: "#9a7c72", weight: 2, fillOpacity: 0.5, Opacity: 1,
+    color: "#9a7c72", weight: 3, fillOpacity: 0.2, Opacity: 1,
     onEachFeature: function (geom, layer) {
       layer.bindPopup('<h6><b>Macro Área 8</b></h6><p><b>Nome:</b> '+geom.properties.Name+'<br><b>Descrição: </b> '+geom.properties.description+'</p>');
     }

@@ -40,13 +40,6 @@ var baseTree = {
               { label: 'Abrigos', layer: abrigo1 },
         ]
         },{
-            label: '<b>Vacinas</b>',
-            collapsed: true,
-            children: [
-                { label: 'Reforço - Sim', layer: markersRef_sim},
-                { label: 'Reforço - Não', layer: markersRef_null},
-        ]
-        },{
             label: '<b>Dengue</b>',
             collapsed: false,
             children: [

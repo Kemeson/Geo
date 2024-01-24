@@ -77,7 +77,7 @@ var baseTree = {
                     ]
                 },
                 {
-                    label: '<b>Mapas de Calor</b>',
+                    label: '<b>Mapas de Calor - Confirmados</b>',
                     collapsed: true,
                     children: [
                         { label: '2019', layer: conf19_calor1 },
@@ -85,6 +85,26 @@ var baseTree = {
                         { label: '2021', layer: conf21_calor1 },
                         { label: '2022', layer: conf22_calor1 },
                         { label: '2023', layer: conf23_calor1 },
+                    ]
+                }
+            ]
+        }, {
+            label: '<b>Malária</b>',
+            children: [
+                {
+                    label: '<b>Confirmados</b>',
+                    collapsed: true,
+                    children: [
+                        { label: '2023', layer: markersmal_conf23 },
+                        { label: '2024', layer: markersmal_conf24 },
+                    ]
+                },
+                {
+                    label: '<b>Mapas de Calor - Confirmados</b>',
+                    collapsed: true,
+                    children: [
+                        { label: '2023', layer: mal_conf23_calor1 },
+                        { label: '2024', layer: mal_conf24_calor1 },
                     ]
                 }
             ]

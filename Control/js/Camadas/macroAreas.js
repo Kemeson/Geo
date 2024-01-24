@@ -28,7 +28,7 @@
     }
   });
 */
-  console.log(macro1);
+  //console.log(macro1);
 
   var macroArea1 = L.geoJSON(macro1, {
     color: "#f4c748", weight: 2.2, fillOpacity: 0.2, Opacity: 1,

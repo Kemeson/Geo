@@ -1,9 +1,9 @@
 
 if(window.screen.width > "500"){
 
-  var latit = 1.80054;
-  var long = -61.4714;
-  var zm = 7;
+  var latit = 2.81954;
+  var long = -60.6714;
+  var zm = 12;
     var map = L.map(document.getElementById('map'), {
       center: [latit, long],
       zoom: zm,

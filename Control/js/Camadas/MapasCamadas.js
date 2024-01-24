@@ -11,25 +11,16 @@ var baseTree = {
     label: '<b>Camadas</b>',
     children: [
         {
-          label: '<b>Macro Áreas</b>',
-          collapsed: true,
-          children: [
-              { label: 'Macro Área 1', layer: macroArea1 },
-              { label: 'Macro Área 2', layer: macroArea2 },
-              { label: 'Macro Área 3', layer: macroArea3 },
-              { label: 'Macro Área 4', layer: macroArea4 },        
-              { label: 'Macro Área 5', layer: macroArea5 },
-              { label: 'Macro Área 6', layer: macroArea6 },
-              { label: 'Macro Área 7', layer: macroArea7 },
-              { label: 'Macro Área 8', layer: macroArea8 },
-          ]
-        }, {
           label: '<b>Base Cartográfica</b>',
           collapsed: false,
           children: [
               { label: 'Sedes Municipais', layer: sedesMunic },
               { label: 'Limites Municipais', layer: limitesMunic },
-              { label: 'Rodovias', layer: rodovia },
+              { label: 'Localidades', layer: markers1 },
+              { label: 'Trecho de Drenagem (1:100.000)', layer: hidrografia },
+              { label: "Trecho de Massa D'Água", layer: hidroMasDagua },
+              { label: 'Projeto de Assentamento', layer: projAssent },
+              { label: 'Glebas', layer: glebas },
         ]
         }, {
           label: '<b>Estabelecimentos de Saúde</b>',
@@ -39,43 +30,13 @@ var baseTree = {
               { label: 'Unidade Básica de Saúde - UBS', layer: pontMacros1 },
               { label: 'Abrigos', layer: abrigo1 },
         ]
-        },{
-            label: '<b>Dengue</b>',
-            collapsed: false,
+        }, {
+            label: '<b>Indigenas</b>',
+            collapsed: true,
             children: [
-                {
-                    label: '<b>Notificados</b>',
-                    collapsed: true,
-                    children: [
-                        { label: '2019', layer: markersNot19 },
-                        { label: '2020', layer: markersNot20 },
-                        { label: '2021', layer: markersNot21 },
-                        { label: '2022', layer: markersNot22 },
-                        { label: '2023', layer: markersNot23 },
-                        { label: '2024', layer: markersNot24 },
-                    ]
-                }, {
-                    label: '<b>Confirmados</b>',
-                    collapsed: true,
-                    children: [
-                        { label: '2019', layer: markersConf19 },
-                        { label: '2020', layer: markersConf20 },
-                        { label: '2021', layer: markersConf21 },
-                        { label: '2022', layer: markersConf22 },
-                        { label: '2023', layer: markersConf23 },
-                    ]
-                }, {
-                    label: '<b>Confirmados - Mapas de Calor</b>',
-                    collapsed: true,
-                    children: [
-                        { label: '2019', layer: conf19_calor1 },
-                        { label: '2020', layer: conf20_calor1 },
-                        { label: '2021', layer: conf21_calor1 },
-                        { label: '2022', layer: conf22_calor1 },
-                        { label: '2023', layer: conf23_calor1 },
-                    ]
-                }
-            ]
+                { label: 'DSEI', layer: dsei1 },
+                { label: 'Habitação Indigena Localidades', layer: markershabInd_loc },
+        ]
         },
     ]
   }

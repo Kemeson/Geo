@@ -5,7 +5,7 @@ var markersmal_conf23 = L.markerClusterGroup();
 
 var malaria_conf23 = L.geoJSON(mal_conf23, {
     pointToLayer: function (geom, latlng) {
-        return L.marker(latlng, {icon: RoxoIcon});
+        return L.marker(latlng, {icon: VerdeIcon});
     },
     onEachFeature: function (geom, layer) {
       layer.bindPopup('<h6><b>Casos Confirmados - Malaria 2023</b></h6><p><b>Semana de Notificação:</b> '+geom.properties.SEM_NOTI+'<br><b>Sexo:</b> '+geom.properties.SEXO+'<br><b>Ocupação:</b> '+geom.properties.COD_OCUP+'<br><b>Município de Residência:</b> '+geom.properties.munRes+'</p>');

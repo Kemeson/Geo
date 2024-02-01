@@ -10,7 +10,7 @@ var baseTree = {
   var overlaysTree = {
     label: '<b>Camadas</b>',
     children: [
-        {
+        /*{
             label: '<b>Macro Áreas</b>',
             collapsed: true,
             children: [
@@ -23,7 +23,7 @@ var baseTree = {
                 { label: 'Macro Área 7', layer: macroArea7 },
                 { label: 'Macro Área 8', layer: macroArea8 },
           ]
-        }, {
+        },*/ {
           label: '<b>Base Cartográfica</b>',
           collapsed: false,
           children: [
@@ -42,6 +42,14 @@ var baseTree = {
               { label: 'Estabelecimentos de Saúde - CNES', layer: markersUs },
               { label: 'Unidade Básica de Saúde - UBS', layer: pontMacros1 },
               { label: 'Abrigos', layer: abrigo1 },
+        ]
+        },{
+            label: '<b>CNES</b>',
+            collapsed: true,
+            children: [
+                { label: 'CNES', layer: markersCnes },
+                { label: 'Com Alvará', layer: markersAlvara_sim },
+                { label: 'Sem Alvará', layer: markersAlvara_nao },
         ]
         }, {
             label: '<b>Indigenas</b>',

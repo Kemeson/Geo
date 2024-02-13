@@ -120,8 +120,12 @@ var baseTree = {
     ]
   }
   
+  if(window.screen.width > "500"){
+    var contr = L.control.layers.tree(baseTree, overlaysTree, {position: "topleft", collapsed: false}).addTo(map);
+  }else{
+    var contr = L.control.layers.tree(baseTree, overlaysTree, {position: "topleft", collapsed: true}).addTo(map);
+  }
   
-  var contr = L.control.layers.tree(baseTree, overlaysTree, {position: "topleft", collapsed: false}).addTo(map);
 /*
 
   const legend = L.control.Legend({

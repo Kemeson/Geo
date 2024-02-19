@@ -58,7 +58,7 @@ var baseTree = {
                 { label: 'DSEI', layer: dsei1 },
                 { label: 'Habitação Indigena Localidades', layer: markershabInd_loc },
         ]
-        },/* {
+        }, {
             label: '<b>Dengue</b>',
             children: [
                 {
@@ -116,7 +116,7 @@ var baseTree = {
                     ]
                 }
             ]
-        },*/
+        },
     ]
   }
   

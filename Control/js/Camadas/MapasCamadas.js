@@ -35,7 +35,14 @@ var baseTree = {
               { label: 'Projeto de Assentamento', layer: projAssent },
               { label: 'Glebas', layer: glebas },
         ]
-        }, {
+        },{
+            label: '<b>Tanques</b>',
+            collapsed: false,
+            children: [
+                { label: 'Tanque 1', layer: tanque1 },
+                { label: 'Tanque 2', layer: tanque2 },
+          ]
+          }, /*{
           label: '<b>Estabelecimentos de Saúde</b>',
           collapsed: true,
           children: [
@@ -116,7 +123,7 @@ var baseTree = {
                     ]
                 }
             ]
-        },
+         },*/
     ]
   }
   
